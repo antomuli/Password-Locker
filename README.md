@@ -1,5 +1,5 @@
 # Project Name.
-**Password_LOcker**
+**Password_Locker**
 
 
 
@@ -13,7 +13,7 @@ Tel:*+254796577998.*
 
 
 ### Project Description.
-
+Password Locker is a python application that helps users generate and store passwords for their personal accounts such as Facebook, Twitter, Gmail, Instagram etc. The Password Locker runs on the terminal and uses short codes to navigate through it. When you launch the app, you get the following short codes displayed on your terminal
 
 
 #### Project-Setup Instructions.
