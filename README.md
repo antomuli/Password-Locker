@@ -1,8 +1,6 @@
 # Project Name.
 **Password_Locker**
 
-
-
 ## Author's Details.
 Name: *Anthony Muli.*
 
@@ -17,6 +15,12 @@ Password Locker is a python application that helps users generate and store pass
 
 
 #### Project-Setup Instructions.
+
+1.Open your github account and search for github username: **antomuli**
+
+2.In antomuli's repositories; git clonethe Password_Locker repository into your local repository using the following link: https://github.com/antomuli/Password-Locker.git
+
+3.Open your terminal and run the command ./run.py and use the short codes illustrated to operate....
 
 
 
@@ -39,21 +43,15 @@ This site was built using github pages:
 
 **The following include the list of technologies used:**
 
-
 **Python3.6**
-
-
 
 ***Known Bugs***
 
-
-
-
+The UI is 40% user friendly.
 
 ## Collaborate
 
-To colloborate, raech me on mulianthony561@gmail.com
-
+To colloborate, reach me through my email address mulianthony561@gmail.com
 
 ###### LICENSE AND COPY RIGHT INFO.
 MIT License
