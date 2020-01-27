@@ -22,8 +22,6 @@ Password Locker is a python application that helps users generate and store pass
 
 3.Open your terminal and run the command ./run.py and use the short codes illustrated to operate....
 
-
-
 ***BDD***
 
 | Behaviour | Input | Output |
@@ -38,7 +36,7 @@ This site was built using github pages:
  
 ##### CODEBEAT
 
-[![codebeat badge](https://codebeat.co/badges/c937679a-8485-44cb-bd2f-4a0ac63044e6)](https://codebeat.co/projects/github-com-antomuli-githubsearch-master)
+[![codebeat badge](https://codebeat.co/badges/817ac1c4-1195-4527-bdfe-265a776bdad2)](https://codebeat.co/projects/github-com-antomuli-password-locker-master)
 
 
 **The following include the list of technologies used:**
