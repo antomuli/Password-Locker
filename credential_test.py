@@ -18,7 +18,7 @@ class TestCredential(unittest.TestCase):
 
     def test_save_credential(self):
        '''
-       test to save te credentials
+       test to save the credentials
        '''
         self.new_credential.save_credential() # saving the new account
         self.assertEqual(len(Credential.credential_list),1)  
