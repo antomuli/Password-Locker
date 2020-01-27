@@ -30,7 +30,7 @@ def display_user():
  
 
 
-def create_credential(credential_name,usr_name,password,email):
+def create_credential(credential_name,user_name,password,email):
     
     new_credential = Credential(credential_name,user_name,password,email)
     return new_credential
@@ -62,7 +62,7 @@ def display_credential():
 def main():
     print("Hello! Welcome to your Password Locker application. Kindly tell me your name")
     user_name = input()
-    # print(f"Hello {user_name}, sign up to Password Locker to create an account.")
+    print(f"Hello {user_name}, sign up to Password Locker to create an account.")
     print('\n')
     while True:
         print("Use these known short codes to operate :\n SU -> SIGN UP.\n DA -> Display your account.\n LN ->LOGIN.\n ex ->exit Password Locker. ")
@@ -72,14 +72,14 @@ def main():
             print("_"*100)
             account_name = input('Account name:')
             print ('\n')
-            u_name = input('User name:')
+            u_name = input('Username:')
             print ('\n')
             pwd = input('Password : ')
             print ('\n')
             e_address = input('Email address:')
             save_user(create_user(account_name,user_name,pwd,e_address)) 
             print ('\n')
-            print(f"A New {account_name} Account with the user name  {u_name} has been created.")
+            print(f"A New {account_name} Account with the username  {u_name} has been created.")
             print(f"You can now login to your {account_name} account using your password.")
             print ('\n')
         elif short_code == 'da':
@@ -114,7 +114,7 @@ def main():
                         print('_' * 20)
                         credential_name = input('Credential name:')
                         print('\n')
-                        usr_name = input(f"{credential_name} user name:")
+                        user_name = input(f"{credential_name} username:")
                         print('\n')
                         print('*' * 20)
                         pwd = input(f"{credential_name} password:")
