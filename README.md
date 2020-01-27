@@ -24,10 +24,9 @@ Password Locker is a python application that helps users generate and store pass
 
 | Behaviour | Input | Output |
 | --------- | ------| ------ |
-|Show github profile|Enter the Username in the search box and press  `enter`|Displays name, username, bio, number of repositories, Hireable, date of creating the repo, followers, following and public gists|
-|Load more search Results   |Click `Load More` button on the Find Repos page |Adds 10 more results in the search results|
-|Redirect to github profile on Github website | Click the `view on github` button of a Github user | Opens the profile on the Github website|
-|Redirect to a specific Github Repository | Click the `view on github` button of a repository on repositories page | Opens the Repository on Github website |
+|Open your terminal|Type this command in the terminal **./run.py** and press  `enter`|The terminal displays a statement|
+|Input data to answer the query asked   |Press enter key |Some short commands appear
+|Redirects the user on some instructions on how to manouvre through the application| Type any of the short commands of your choice | Follow them through to create an **account** for instance|
 
 ##### Github-link to Password_Locker.
 The following is the live link to the project "GithubSearch":https://antomuli.github.io/GithubSearch/
