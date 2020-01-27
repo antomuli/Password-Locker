@@ -5,7 +5,7 @@ from credential import Credential
 class TestCredential(unittest.TestCase):
     def setUp(self):
        
-        self.new_credential = Credential("anthony","muli","123456","mulianthony561@@gmail.com") # create Account object
+        self.new_credential = Credential("anthony","muli","123456","mulianthony561@gmail.com") # create Account object
 
     
     def test_init(self):
@@ -17,18 +17,24 @@ class TestCredential(unittest.TestCase):
         self.assertEqual(self.new_credential.email,"mulianthony561@gmail.com")
 
     def test_save_credential(self):
-       
+       '''
+       test to save te credentials
+       '''
         self.new_credential.save_credential() # saving the new account
         self.assertEqual(len(Credential.credential_list),1)  
 
 
     def tearDown(self):
-            
+            '''
+            test to clean up the credential list in the credential.py
+            '''
             Credential.credential_list = []    
 
 
     def test_save_multiple_credential(self):
-            
+            '''
+            to save multiple credentials
+            '''
             self.new_credential.save_credential()
             test_credential = Credential("Test","user","0712345678","test@user.com") 
             test_credential.save_credential()
@@ -36,7 +42,9 @@ class TestCredential(unittest.TestCase):
 
 
     def test_delete_credential(self):
-            
+            '''
+            to delete credentials
+            '''
             self.new_credential.save_credential()
             test_credential = Credential("Test","user","0712345678","test@user.com") 
             test_credential.save_credential()
@@ -45,7 +53,9 @@ class TestCredential(unittest.TestCase):
             self.assertEqual(len(Credential.credential_list),1) 
 
     def test_find_credential_by_credential_name(self):
-       
+       '''
+       to find credential by credential name
+       '''
 
         self.new_credential.save_credential()
         test_credential = Credential("Test","user","0711223344","test@user.com") 
@@ -58,7 +68,9 @@ class TestCredential(unittest.TestCase):
 
 
     def test_credential_exists(self):
-        
+        '''
+        to check whether the credential exists
+        '''
 
         self.new_credential.save_credential()
         test_credential = Credential("Test","user","0711223344","test@user.com") # new account
