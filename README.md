@@ -31,8 +31,8 @@ Password Locker is a python application that helps users generate and store pass
 |Redirects the user on some instructions on how to manouvre through the application| Type any of the short commands of your choice | Follow them through to create an **account** for instance|
 
 ##### Github-link to Password_Locker.
-The following is the live link to the project "GithubSearch":https://antomuli.github.io/GithubSearch/
-This site was built using github pages:
+The following is the github link to the project "Password_Locker":https://github.com/antomuli/Password-Locker.git
+This site lacks github pages:
  
 ##### CODEBEAT
 
