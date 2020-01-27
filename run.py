@@ -69,7 +69,7 @@ def main():
         short_code = input().lower()
         if short_code == 'su':
             print("Create a Password Locker Account")
-            print("_"*100)
+            print("_"*10)
             account_name = input('Account name:')
             print ('\n')
             u_name = input('Username:')
@@ -111,12 +111,12 @@ def main():
                     short_code = input().lower()
                     if short_code == "ca":
                         print("Create new credential")
-                        print('_' * 20)
+                        print('_' * 10)
                         credential_name = input('Credential name:')
                         print('\n')
                         user_name = input(f"{credential_name} username:")
                         print('\n')
-                        print('*' * 20)
+                        print('*' * 10)
                         pwd = input(f"{credential_name} password:")
                         save_credential(create_credential(credential_name,user_name,pwd,e_address))
                         print('\n')
@@ -149,7 +149,7 @@ def main():
                     print(f"Thanks {user_name} for your time.I hope you enjoyed my service.Bye...")
                     break
         else:
-                    print("I really didn't get that. Please use the short codes")
+                    print("What do you mean! Please use the short codes")
 
 if __name__ == '__main__':
     main()                            
